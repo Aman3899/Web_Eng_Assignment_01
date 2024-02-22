@@ -1,0 +1,209 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+/* Menu Bar/Nav Bar Section */
+
+#MenuBar {
+    position: fixed;
+    width: 100%;
+    background-color: #000000;
+}
+
+ul {
+    display: flex;
+}
+
+ul li {
+    list-style: none;
+    margin-left: 6%;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+#Logo {
+    width: 75%;
+}
+
+#LogoAn:hover {
+    #Logo {
+        width: 150%;
+    }
+}
+
+ul li:hover {
+    background-color: rgb(0, 255, 166);
+    a {
+        color: black;
+    }
+}
+
+/* Adding Animation at Roles */
+@keyframes changeName {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+    }
+
+#AnimatedName {
+    animation: changeName 3s ease-in-out infinite;
+}
+
+/* Ending of Nav Bar Section - > END */
+
+
+
+/* Banner Section CSS Code */
+#BannerSection {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+}
+
+#TextArea {
+    width: 50%;
+    margin: 11%;
+}
+
+.Intro {
+    font-size: 50px;
+}
+
+span {
+    color: rgb(0, 255, 166);
+}
+
+#MyImage {
+    width: 70%;
+    height: fit-content;
+    padding-right: 20%;
+    margin-top: 15%;
+}
+
+svg {
+    margin-top: 5%;
+}
+
+#CVBtn {
+    width: 35%;
+    height: 60px;
+    background-color: rgb(0, 255, 166);
+    font-weight: bolder;
+    font-size: large;
+    margin-top: 10%;
+    border: 3px solid rgb(0, 255, 166);
+}
+
+#CVBtn:hover {
+    background-color: green;
+    color: rgb(255, 255, 255);
+    border: 3px solid white;
+}
+
+#WatchBtn {
+    width: 40%;
+    height: 60px;
+    color: white;
+    background-color: black;
+    font-weight: bolder;
+    font-size: large;
+    border: none;
+}
+
+#WatchBtn:hover {
+    background-color: rgb(0, 255, 166);
+    color: black;
+    border: 3px white solid;
+}
+/* Ending of Banner Section Code -> END */
+
+
+
+/* Get In Touch Section CSS Code */
+#GetInTouchSection {
+    width: 100%;
+    margin-top: 75px;
+    display: flex;
+}
+
+#designInfo {
+    width: 40%;
+    margin-left: 10%;
+}
+
+#touchForm {
+    width: 35%;
+    margin-left: 10%;
+    height: fit-content;
+    background-color: rgb(42, 41, 48);
+    padding-bottom: 50px;
+}
+
+input[type="text"], input[type="email"], input[type="tel"], #TextMessage {
+    width: 80%;
+    margin-left: 10%;
+    height: 50px;
+    margin-top: 4%;
+    background-color: black;
+    border: 1px solid rgb(0, 255, 166);
+    color: white;
+}
+
+.touchC {
+    margin-left: 10%;
+}
+
+#TextMessage {
+    height: 200px;
+}
+
+input[type="submit"] {
+    width: 50%;
+    margin-left: 10%;
+    height: 40px;
+    background-color: rgb(0, 255, 166);
+    margin-top: 5%;
+    font-size: large;
+    font-weight: bolder;
+}
+
+input[type="submit"]:hover {
+    background-color: black;
+    color: rgb(0, 255, 166);
+    border: 3px solid rgb(0, 255, 166);
+}
+
+.review {
+    width: 46%;
+    margin: 1%;
+    height: 100px;
+    text-align: center;
+}
+
+sub {
+    display: flex;
+    margin: 0%;
+}
+
+footer {
+    display: flex;
+    width: 90%;
+    height: 60px;
+    margin-top: 200px;
+    background-color: rgb(42, 41, 48);
+    padding-left: 10%;
+}
+
+#github, #linkedin {
+    width: 50%;
+    margin-left: 200%;
+    margin-top: 20%;
+}

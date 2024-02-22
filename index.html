@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web_Assignment_01_Group_1</title>
+
+    <link rel="stylesheet" href="Styles.css">
+</head>
+
+<body>
+
+    <header id="MenuBar">
+        <ul>
+            <li style="width: 2%;"><a href="#" style="width: 100%;" id="LogoAn"><img src="Images/MyImage.png" alt="Logo" id="Logo"></a></li>
+            <li><a href="#BannerSection">Home</a></li>
+            <li><a href="#">AmanUllah</a></li>
+            <li><a href="#">21F-9517</a></li>
+            <li><a href="#GetInTouchSection">Get In Touch</a></li>
+        </ul><hr>
+    </header>
+
+    <section id="BannerSection">
+        <div id="TextArea">
+            <h1 class="Intro">HI, I'M AMANULLAH! <br>CREATE <span id="AnimatedName">PLAYER</span></h1>
+        
+            <p>I'm a passionate Software Engineer with a mission to create web & android applications. With a strong foundation in software engineering principles and a keen eye for detail, I specialize in making complex ideas into user-friendly applications that captive and engage.</p>
+        
+            <button id="CVBtn">Download CV <img src="Images/downloadIcon.png" alt="Download Icon" style="width: 11%;"></button>
+            <button id="WatchBtn" onclick="loadYTVideo()">▶ Watch this video</button>
+        </div>
+
+        <svg height="800" width="800" xmlns="http://www.w3.org/2000/svg">
+            <polygon points="350,150 550,220 550,480 350,550 150,480 150,220" style="fill:rgb(4, 4, 4);stroke:rgb(0, 256, 155);stroke-width:25"></polygon>
+            <image xlink:href="Images/MyImage.png" width="450" height="450" x="120" y="95"></image>
+        </svg>
+        
+    </section>
+    
+
+    <section id="GetInTouchSection">
+        <div id="designInfo">
+            <h1 style="font-size:60px;"><span style="font-size: 150px;color: white;">Design</span> and Innovation</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, delectus consectetur obcaecati debitis, eum repellat dignissimos tenetur praesentium voluptatem quos hic inventore? Neque veritatis laborum molestias nisi praesentium, sed facilis?
+            Earum non id iusto, ipsa nam corrupti possimus iste vel, adipisci nesciunt totam velit. Fugit nemo, temporibus perferendis quia nobis laborum odio vel alias non amet cum a, tempora eum.</p>
+
+            <sub>
+                <div class="review">
+                    <img src="Images/temp1.png" alt="Temp Image 1" style="width: 100%;">
+                    <h1 id="counter_1">0K+</h1>
+                    <h3>Complete Project</h3>
+                </div>
+                <div class="review">
+                    <img src="Images/temp2.png" alt="Temp Image 2" style="width: 100%;">
+                    <h1 id="counter_2">0+</h1>
+                    <h3>Client Review</h3>
+                </div>
+            </sub>
+        </div>
+
+        <div id="touchForm">
+            <h1 class="touchC" style="font-size: 45px;">GET TOUCH ME?</h1>
+            <p class="touchC">For your car we will do everything advice design in us repairs and maintenance We are the same preferred.</p>
+            
+            <form action="">
+                <input type="text" name="Name" id="Name" placeholder="Your Name*" required>
+                <input type="email" name="Email" id="Email" placeholder="Your Email*">
+                <input type="tel" name="Phone" id="Phone" required pattern="[0-9]{4}-[0-9]{7}" placeholder="Your Phone Number*">
+                <textarea name="TextMessage" id="TextMessage" cols="30" rows="10" placeholder="Message (Optional)"></textarea>
+                <input type="submit" value="Submit" onclick="Submit()">
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>All Copyright reserved ™️</p>
+        <a href="https://github.com/Aman3899" target="_blank"><img src="Images/GithubImage.png" alt="Github Link" id="github"></a>
+        <a href="https://www.linkedin.com/in/aman-ullah-2a124824a/" target="_blank"><img src="Images/LinkedInImage.png" alt="LinkedIn Link" id="linkedin"></a>
+    </footer>
+
+
+    <script src="Script.js"></script>
+</body>
+</html>
